@@ -41,17 +41,20 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-  I am Ravi Barot, a passionate developer specializing in Next.js and React. With a keen interest in crafting robust and efficient web applications, I thrive on leveraging the power of modern frontend technologies to deliver exceptional digital experiences.
-
-My journey into web development began with a fascination for how technology shapes our online interactions. Over the years, I&apos;ve honed my skills in building scalable solutions that marry elegant design with seamless functionality. Whether it&apos;s creating responsive user interfaces or optimizing backend integrations, I am dedicated to pushing the boundaries of what&apos;s possible in web development.
-
-My expertise in Next.js allows me to embrace server-side rendering, API routes, and static site generation, ensuring high performance and SEO-friendly applications. Combined with React&apos;s component-based architecture, I strive to deliver intuitive and engaging user experiences that exceed expectations.
-
-Beyond coding, I am committed to continuous learning and staying updated with industry trends. I believe in the importance of clean code practices, effective collaboration, and delivering projects that not only meet but exceed client requirements.
-
-If you&apos;re looking to elevate your digital presence or streamline your web application, I&apos;m here to collaborate and turn your vision into reality with Next.js and React.
-</p>
-
+              I am Ravi Barot, a passionate developer specializing in Next.js and React. With a keen interest in crafting robust and efficient web applications, I thrive on leveraging the power of modern frontend technologies to deliver exceptional digital experiences.
+            </p>
+            <p className="text-lg">
+              My journey into web development began with a fascination for how technology shapes our online interactions. Over the years, I&apos;ve honed my skills in building scalable solutions that marry elegant design with seamless functionality. Whether it&apos;s creating responsive user interfaces or optimizing backend integrations, I am dedicated to pushing the boundaries of what&apos;s possible in web development.
+            </p>
+            <p className="text-lg">
+              My expertise in Next.js allows me to embrace server-side rendering, API routes, and static site generation, ensuring high performance and SEO-friendly applications. Combined with React&apos;s component-based architecture, I strive to deliver intuitive and engaging user experiences that exceed expectations.
+            </p>
+            <p className="text-lg">
+              Beyond coding, I am committed to continuous learning and staying updated with industry trends. I believe in the importance of clean code practices, effective collaboration, and delivering projects that not only meet but exceed client requirements.
+            </p>
+            <p className="text-lg">
+              If you&apos;re looking to elevate your digital presence or streamline your web application, I&apos;m here to collaborate and turn your vision into reality with Next.js and React.  
+            </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
