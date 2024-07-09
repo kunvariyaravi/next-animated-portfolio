@@ -30,21 +30,26 @@ const AboutPage = () => {
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
-            <Image
+{/*             <Image
               src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt=""
               width={112}
               height={112}
               className="w-28 h-28 rounded-full object-cover"
-            />
+            /> */}
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+              I am Ravi Barot, a passionate developer specializing in Next.js and React. With a keen interest in crafting robust and efficient web applications, I thrive on leveraging the power of modern frontend technologies to deliver exceptional digital experiences.
+
+My journey into web development began with a fascination for how technology shapes our online interactions. Over the years, I've honed my skills in building scalable solutions that marry elegant design with seamless functionality. Whether it's creating responsive user interfaces or optimizing backend integrations, I am dedicated to pushing the boundaries of what's possible in web development.
+
+My expertise in Next.js allows me to embrace server-side rendering, API routes, and static site generation, ensuring high performance and SEO-friendly applications. Combined with React's component-based architecture, I strive to deliver intuitive and engaging user experiences that exceed expectations.
+
+Beyond coding, I am committed to continuous learning and staying updated with industry trends. I believe in the importance of clean code practices, effective collaboration, and delivering projects that not only meet but exceed client requirements.
+
+If you're looking to elevate your digital presence or streamline your web application, I'm here to collaborate and turn your vision into reality with Next.js and React.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
