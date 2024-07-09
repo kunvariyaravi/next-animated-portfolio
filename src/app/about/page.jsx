@@ -56,11 +56,8 @@ const AboutPage = () => {
               If you&apos;re looking to elevate your digital presence or streamline your web application, I&apos;m here to collaborate and turn your vision into reality with Next.js and React.  
             </p>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
             {/* BIOGRAPHY SIGN SVG*/}
-            <div className="self-end">
+{/*             <div className="self-end">
               <svg
                 width="185"
                 height="77"
@@ -74,7 +71,7 @@ const AboutPage = () => {
                   strokeWidth="2"
                 />
               </svg>
-            </div>
+            </div> */}
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -217,7 +214,7 @@ const AboutPage = () => {
             </motion.svg>
           </div>
           {/* EXPERIENCE CONTAINER */}
-          <div
+{/*           <div
             className="flex flex-col gap-12 justify-center pb-48"
             ref={experienceRef}
           >
@@ -333,7 +330,7 @@ const AboutPage = () => {
               </div>
             </motion.div>
           </div>
-        </div>
+        </div> */}
         {/* SVG CONTAINER */}
         <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2">
           <Brain scrollYProgress={scrollYProgress} />
