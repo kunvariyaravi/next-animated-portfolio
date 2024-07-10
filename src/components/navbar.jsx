@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
-  { url: "/portfolio", title: "Portfolio" },
+  { url: "https://blog.ravibarot.com/", title: "Blog" },
   { url: "/contact", title: "Contact" },
 ];
 
@@ -82,7 +82,7 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">RaviBarot</span>
+          <span className="text-white mr-1">Ravi Barot</span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
             .com
           </span>
