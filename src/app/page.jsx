@@ -33,14 +33,14 @@ const Homepage = () => {
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
             <Link href="https://blog.ravibarot.com/">
-              <a className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+              <span className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
                 View My Blog
-              </a>
+              </span>
             </Link>
             <Link href="https://www.ravibarot.com/contact">
-              <a className="p-4 rounded-lg ring-1 ring-black">
+              <span className="p-4 rounded-lg ring-1 ring-black">
                 Contact Me
-              </a>
+              </span>
             </Link>
           </div>
         </div>

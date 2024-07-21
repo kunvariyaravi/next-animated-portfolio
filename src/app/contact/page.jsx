@@ -35,14 +35,14 @@ const ContactPage = () => {
 
   return (
     <motion.div
-      className="h-full"
+      className="min-h-screen"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+        <div className="flex items-center justify-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl py-8 lg:py-0 lg:h-screen lg:w-1/2">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
@@ -65,21 +65,20 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+          className="bg-red-50 rounded-xl text-sm md:text-lg lg:text-xl flex flex-col gap-6 md:gap-8 p-8 md:p-16 lg:p-24 justify-center lg:h-screen lg:w-1/2"
         >
-          <span>Dear Ravi Barot,</span>
-          <textarea
-            rows={6}
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none"
-            name="user_message"
-          />
-          <span>My mail address is:</span>
           <input
             name="user_email"
-            type="text"
-            className="bg-transparent border-b-2 border-b-black outline-none"
+            type="email"
+            placeholder="Enter your email address"
+            className="bg-transparent border-b-2 border-b-black outline-none p-2"
           />
-          <span>Regards</span>
+          <textarea
+            name="user_message"
+            placeholder="Enter your message here"
+            className="bg-transparent border-b-2 border-b-black outline-none p-2"
+            rows="5"
+          />
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
             Send
           </button>
