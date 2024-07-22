@@ -93,12 +93,12 @@ const Navbar = () => {
         <Link href="https://github.com/kunvariyaravi">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://www.instagram.com/kunvariya.ravi/">
+        {/* <Link href="https://www.instagram.com/kunvariya.ravi/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="https://www.facebook.com/kunvariyaravi/">
+        </Link> */}
+        {/* <Link href="https://www.facebook.com/kunvariyaravi/">
           <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
+        </Link> */}
         <Link href="https://www.linkedin.com/in/ravi-kunvariya-b35493201/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
