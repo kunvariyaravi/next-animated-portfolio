@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import DomainChecker from "@/components/DomainChecker";
 
 const Homepage = () => {
   return (
@@ -32,14 +33,14 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <Link href="https://blog.ravibarot.com/">
+            <Link href="https://bloggingalliance.com/">
               <span className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-                View My Blog
+                Connect with Bloggers
               </span>
             </Link>
-            <Link href="https://www.ravibarot.com/contact">
+            <Link href="https://blog.ravibarot.com/">
               <span className="p-4 rounded-lg ring-1 ring-black">
-                Contact Me
+                View My Blog
               </span>
             </Link>
           </div>

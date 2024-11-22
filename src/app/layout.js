@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import DomainChecker from "@/components/DomainChecker";
 
 const inter = Inter({ subsets: ["latin"] });
 

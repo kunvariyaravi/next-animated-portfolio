@@ -88,19 +88,13 @@ const Navbar = () => {
           </span>
         </Link>
       </div>
-      {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="https://github.com/kunvariyaravi">
-          <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
-        {/* <Link href="https://www.instagram.com/kunvariya.ravi/">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link> */}
-        {/* <Link href="https://www.facebook.com/kunvariyaravi/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link> */}
-        <Link href="https://www.linkedin.com/in/ravi-kunvariya-b35493201/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+      {/* CTA */}
+      <div className="hidden md:flex gap-4 items-center w-1/3 justify-end">
+        <Link
+          href="https://bloggingalliance.com/"
+          className="bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-500"
+        >
+          Connect with Bloggers
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
@@ -143,6 +137,14 @@ const Navbar = () => {
                 <Link href={link.url}>{link.title}</Link>
               </motion.div>
             ))}
+            <motion.div variants={listItemVariants}>
+              <Link
+                href="https://bloggingalliance.com/"
+                className="bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-500"
+              >
+                Connect with Bloggers
+              </Link>
+            </motion.div>
           </motion.div>
         )}
       </div>
